@@ -81,7 +81,8 @@ namespace SfDataGridDemo
         {
             throw new NotImplementedException();
         }
-    }    
+    }
+
     internal class TrustImageConverter : IValueConverter
     {
         /// <summary>
