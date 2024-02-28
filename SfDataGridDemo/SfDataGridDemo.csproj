@@ -1,0 +1,30 @@
+﻿<Project Sdk="Xpf.Sdk/1.0.1-cibuild001274">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+	<EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Female.png"  />
+    <Resource Include="Images\Insufficient.png"  />
+    <Resource Include="Images\location.png"  />
+    <Resource Include="Images\Male.png"  />
+    <Resource Include="Images\Perfect.png"  />
+    <Resource Include="Images\Sufficient.png"  />
+    </ItemGroup>
+
+  <ItemGroup>
+    <RuntimeHostConfigurationOption Include="AvaloniaUI.Xpf.LicenseKey" Value="AQAAAGMAAAAfiwgAAAAAAAADY2RgYPgPBQKPGmYUV+Ylp5UWZ+bnPWqY+XDWJGEGKGAGYtaczLzSCtbcxOT8YvbyzLyU/PJikDhzRUEaDxDrJhZk6hZnZOaCOUAFaflFucUAASyZemMAAAAAAQAAX6kT+LrPmXMoH8+u/bbfPAGMo9kWYdIteOlHCxOpJ0RCFWBYc72g04WTHEYCX6xrKzKd/9sWAsZJT9mLlvhEM13QBLaXChQew6IEH3KJM1o/q4+LHnTPYieUcmDQpeHpfo8CgTHbnS1QIOQ6/HTxXGtHC8mgbQPwgH+U0ZHzBfx61Omg/JGslYS0/UKZjPAEhGlgD5L253nT/HC5YrbBcDLDgf17wLRLr4TNkyToBwWkvcU4fgJxvRGikwbJkWbO17u7593nsAYcIhx6VIEXB/xQh32/bS73WuRQ2Fe3L6flR06IXVt0cxukfcarWQJj0lnA5Mz3ON1E361X+81z/Q==" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.SfGrid.WPF" Version="24.2.7" />
+    <PackageReference Include="Syncfusion.SfInput.WPF" Version="24.2.7" />
+  </ItemGroup>
+
+</Project>
