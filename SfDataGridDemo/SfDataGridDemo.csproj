@@ -5,7 +5,7 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-	<EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,9 +18,8 @@
     </ItemGroup>
 
   <ItemGroup>
-    <RuntimeHostConfigurationOption Include="AvaloniaUI.Xpf.LicenseKey" Value="AQAAAGMAAAAfiwgAAAAAAAADY2RgYPgPBQKPGmYUV+Ylp5UWZ+bnPWqY+XDWJGEGKGAGYtaczLzSCtbcxOT8YvbyzLyU/PJikDhzRUEaDxDrJhZk6hZnZOaCOUAFaflFucUAASyZemMAAAAAAQAAX6kT+LrPmXMoH8+u/bbfPAGMo9kWYdIteOlHCxOpJ0RCFWBYc72g04WTHEYCX6xrKzKd/9sWAsZJT9mLlvhEM13QBLaXChQew6IEH3KJM1o/q4+LHnTPYieUcmDQpeHpfo8CgTHbnS1QIOQ6/HTxXGtHC8mgbQPwgH+U0ZHzBfx61Omg/JGslYS0/UKZjPAEhGlgD5L253nT/HC5YrbBcDLDgf17wLRLr4TNkyToBwWkvcU4fgJxvRGikwbJkWbO17u7593nsAYcIhx6VIEXB/xQh32/bS73WuRQ2Fe3L6flR06IXVt0cxukfcarWQJj0lnA5Mz3ON1E361X+81z/Q==" />
+    <RuntimeHostConfigurationOption Include="AvaloniaUI.Xpf.LicenseKey" Value="Enter the LicenseKey" />
   </ItemGroup>
-
 
   <ItemGroup>
     <PackageReference Include="Syncfusion.SfGrid.WPF" Version="24.2.7" />
