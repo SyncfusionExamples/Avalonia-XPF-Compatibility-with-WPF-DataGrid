@@ -1,0 +1,28 @@
+﻿<Project Sdk="Xpf.Sdk/1.0.1-cibuild001274">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Female.png"  />
+    <Resource Include="Images\Insufficient.png"  />
+    <Resource Include="Images\location.png"  />
+    <Resource Include="Images\Male.png"  />
+    <Resource Include="Images\Perfect.png"  />
+    <Resource Include="Images\Sufficient.png"  />
+    </ItemGroup>
+
+  <ItemGroup>
+    <RuntimeHostConfigurationOption Include="AvaloniaUI.Xpf.LicenseKey" Value="Enter the LicenseKey" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.SfGrid.WPF" Version="*" />
+  </ItemGroup>
+
+</Project>
