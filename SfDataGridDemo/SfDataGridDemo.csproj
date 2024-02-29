@@ -23,7 +23,6 @@
 
   <ItemGroup>
     <PackageReference Include="Syncfusion.SfGrid.WPF" Version="*" />
-    <PackageReference Include="Syncfusion.SfInput.WPF" Version="*" />
   </ItemGroup>
 
 </Project>
